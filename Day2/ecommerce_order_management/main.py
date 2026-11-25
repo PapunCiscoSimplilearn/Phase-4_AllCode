@@ -12,15 +12,31 @@ else:
     from payment_method import UPIPayment
 
 
-def main():
-    product = {"name": "Laptop", "price": 50000, "stock": 10}
-    order_service = OrderService(
-        UPIPayment(), InventoryService(), NotificationService(), MySQLOrderRepository()
-    )
+product = {
+    "name": "Laptop",
+    "price": 50000,
+    "stock": 10
+}
 
-    result = order_service.create_order("Irfan", product, 2)
-    print(result)
+payment = UPIPayment()
 
+inventory = InventoryService()
 
-if __name__ == "__main__":
-    main()
+notification = NotificationService()
+
+repository = MySQLOrderRepository()
+
+order_service = OrderService(
+    payment,
+    inventory,
+    notification,
+    repository
+)
+
+result = order_service.create_order(
+    "Irfan",
+    product,
+    2
+)
+
+print(result)
