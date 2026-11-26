@@ -1,0 +1,132 @@
+2026-11-26 06:57:55,319 | INFO | TraceID=14c9d404ad5043d2a03284762e32bafb | main.py:20 | Request started: GET /
+2026-11-26 06:57:55,320 | INFO | TraceID=14c9d404ad5043d2a03284762e32bafb | main.py:38 | Request completed in 1.30 ms
+2026-11-26 06:58:02,109 | INFO | TraceID=52fad3a9756f4ec9b685b6d265a698c9 | main.py:20 | Request started: GET /docs
+2026-11-26 06:58:02,110 | INFO | TraceID=52fad3a9756f4ec9b685b6d265a698c9 | main.py:38 | Request completed in 0.68 ms
+2026-11-26 06:58:02,238 | INFO | TraceID=b4c2d63be4044b21a7a9b5e1b78f0185 | main.py:20 | Request started: GET /openapi.json
+2026-11-26 06:58:02,240 | INFO | TraceID=b4c2d63be4044b21a7a9b5e1b78f0185 | main.py:38 | Request completed in 2.19 ms
+2026-11-26 06:58:20,083 | INFO | TraceID=0d83359c7c544012950732f369adc6fa | main.py:20 | Request started: GET /employees/101
+2026-11-26 06:58:20,085 | INFO | TraceID=0d83359c7c544012950732f369adc6fa | main.py:47 | Controller received employee ID: 101
+2026-11-26 06:58:20,085 | DEBUG | TraceID=0d83359c7c544012950732f369adc6fa | employee_service.py:10 | Service processing employee ID: 101
+2026-11-26 06:58:20,085 | DEBUG | TraceID=0d83359c7c544012950732f369adc6fa | employee_repository.py:13 | Repository received employee ID: 101
+2026-11-26 06:58:20,085 | INFO | TraceID=0d83359c7c544012950732f369adc6fa | employee_repository.py:22 | Fetching employee from repository
+2026-11-26 06:58:20,086 | INFO | TraceID=0d83359c7c544012950732f369adc6fa | employee_service.py:17 | Employee retrieved successfully: 101
+2026-11-26 06:58:20,086 | INFO | TraceID=0d83359c7c544012950732f369adc6fa | main.py:38 | Request completed in 3.16 ms
+2026-11-26 06:58:30,132 | INFO | TraceID=08d52695ca34477abb8a8c75fc892a59 | main.py:20 | Request started: GET /employees/101
+2026-11-26 06:58:30,132 | INFO | TraceID=08d52695ca34477abb8a8c75fc892a59 | main.py:47 | Controller received employee ID: 101
+2026-11-26 06:58:30,133 | DEBUG | TraceID=08d52695ca34477abb8a8c75fc892a59 | employee_service.py:10 | Service processing employee ID: 101
+2026-11-26 06:58:30,133 | DEBUG | TraceID=08d52695ca34477abb8a8c75fc892a59 | employee_repository.py:13 | Repository received employee ID: 101
+2026-11-26 06:58:30,133 | INFO | TraceID=08d52695ca34477abb8a8c75fc892a59 | employee_repository.py:22 | Fetching employee from repository
+2026-11-26 06:58:30,133 | INFO | TraceID=08d52695ca34477abb8a8c75fc892a59 | employee_service.py:17 | Employee retrieved successfully: 101
+2026-11-26 06:58:30,133 | INFO | TraceID=08d52695ca34477abb8a8c75fc892a59 | main.py:38 | Request completed in 1.66 ms
+2026-11-26 06:59:05,710 | INFO | TraceID=72134f2e010644a8bcdddcb2b0c842a6 | main.py:20 | Request started: GET /employees/101
+2026-11-26 06:59:05,711 | INFO | TraceID=72134f2e010644a8bcdddcb2b0c842a6 | main.py:47 | Controller received employee ID: 101
+2026-11-26 06:59:05,711 | DEBUG | TraceID=72134f2e010644a8bcdddcb2b0c842a6 | employee_service.py:10 | Service processing employee ID: 101
+2026-11-26 06:59:05,711 | DEBUG | TraceID=72134f2e010644a8bcdddcb2b0c842a6 | employee_repository.py:13 | Repository received employee ID: 101
+2026-11-26 06:59:05,711 | INFO | TraceID=72134f2e010644a8bcdddcb2b0c842a6 | employee_repository.py:22 | Fetching employee from repository
+2026-11-26 06:59:05,711 | INFO | TraceID=72134f2e010644a8bcdddcb2b0c842a6 | employee_service.py:17 | Employee retrieved successfully: 101
+2026-11-26 06:59:05,712 | INFO | TraceID=72134f2e010644a8bcdddcb2b0c842a6 | main.py:38 | Request completed in 1.99 ms
+2026-11-26 06:59:07,295 | INFO | TraceID=a17e18ef472d4a5caf8cf40cc9b5141c | main.py:20 | Request started: GET /employees/101
+2026-11-26 06:59:07,296 | INFO | TraceID=a17e18ef472d4a5caf8cf40cc9b5141c | main.py:47 | Controller received employee ID: 101
+2026-11-26 06:59:07,296 | DEBUG | TraceID=a17e18ef472d4a5caf8cf40cc9b5141c | employee_service.py:10 | Service processing employee ID: 101
+2026-11-26 06:59:07,296 | DEBUG | TraceID=a17e18ef472d4a5caf8cf40cc9b5141c | employee_repository.py:13 | Repository received employee ID: 101
+2026-11-26 06:59:07,296 | INFO | TraceID=a17e18ef472d4a5caf8cf40cc9b5141c | employee_repository.py:22 | Fetching employee from repository
+2026-11-26 06:59:07,296 | INFO | TraceID=a17e18ef472d4a5caf8cf40cc9b5141c | employee_service.py:17 | Employee retrieved successfully: 101
+2026-11-26 06:59:07,296 | INFO | TraceID=a17e18ef472d4a5caf8cf40cc9b5141c | main.py:38 | Request completed in 1.54 ms
+2026-11-26 06:59:11,164 | INFO | TraceID=204c651e8e734564aa25582495ea2e85 | main.py:20 | Request started: GET /employees/101
+2026-11-26 06:59:11,165 | INFO | TraceID=204c651e8e734564aa25582495ea2e85 | main.py:47 | Controller received employee ID: 101
+2026-11-26 06:59:11,165 | DEBUG | TraceID=204c651e8e734564aa25582495ea2e85 | employee_service.py:10 | Service processing employee ID: 101
+2026-11-26 06:59:11,165 | DEBUG | TraceID=204c651e8e734564aa25582495ea2e85 | employee_repository.py:13 | Repository received employee ID: 101
+2026-11-26 06:59:11,165 | INFO | TraceID=204c651e8e734564aa25582495ea2e85 | employee_repository.py:22 | Fetching employee from repository
+2026-11-26 06:59:11,165 | INFO | TraceID=204c651e8e734564aa25582495ea2e85 | employee_service.py:17 | Employee retrieved successfully: 101
+2026-11-26 06:59:11,166 | INFO | TraceID=204c651e8e734564aa25582495ea2e85 | main.py:38 | Request completed in 2.14 ms
+2026-11-26 06:59:24,488 | INFO | TraceID=8a7348ceb3014564964429324a5a4bb5 | main.py:20 | Request started: GET /employees/1012
+2026-11-26 06:59:24,489 | INFO | TraceID=8a7348ceb3014564964429324a5a4bb5 | main.py:47 | Controller received employee ID: 1012
+2026-11-26 06:59:24,489 | DEBUG | TraceID=8a7348ceb3014564964429324a5a4bb5 | employee_service.py:10 | Service processing employee ID: 1012
+2026-11-26 06:59:24,489 | DEBUG | TraceID=8a7348ceb3014564964429324a5a4bb5 | employee_repository.py:13 | Repository received employee ID: 1012
+2026-11-26 06:59:24,489 | INFO | TraceID=8a7348ceb3014564964429324a5a4bb5 | employee_repository.py:22 | Fetching employee from repository
+2026-11-26 06:59:24,489 | WARNING | TraceID=8a7348ceb3014564964429324a5a4bb5 | employee_service.py:14 | Employee not found: 1012
+2026-11-26 06:59:24,490 | INFO | TraceID=8a7348ceb3014564964429324a5a4bb5 | main.py:38 | Request completed in 1.66 ms
+2026-11-26 06:59:56,469 | INFO | TraceID=b23adc694e9d45d4965e805fb46f1fb9 | main.py:20 | Request started: GET /employees/101
+2026-11-26 06:59:56,470 | INFO | TraceID=b23adc694e9d45d4965e805fb46f1fb9 | main.py:47 | Controller received employee ID: 101
+2026-11-26 06:59:56,470 | DEBUG | TraceID=b23adc694e9d45d4965e805fb46f1fb9 | employee_service.py:10 | Service processing employee ID: 101
+2026-11-26 06:59:56,470 | DEBUG | TraceID=b23adc694e9d45d4965e805fb46f1fb9 | employee_repository.py:13 | Repository received employee ID: 101
+2026-11-26 06:59:56,470 | INFO | TraceID=b23adc694e9d45d4965e805fb46f1fb9 | employee_repository.py:22 | Fetching employee from repository
+2026-11-26 06:59:56,470 | INFO | TraceID=b23adc694e9d45d4965e805fb46f1fb9 | employee_service.py:17 | Employee retrieved successfully: 101
+2026-11-26 06:59:56,471 | INFO | TraceID=b23adc694e9d45d4965e805fb46f1fb9 | main.py:38 | Request completed in 1.88 ms
+2026-11-26 06:59:58,040 | INFO | TraceID=93f7b53fc8a042fc935c97c476a6cd0f | main.py:20 | Request started: GET /employees/101
+2026-11-26 06:59:58,041 | INFO | TraceID=93f7b53fc8a042fc935c97c476a6cd0f | main.py:47 | Controller received employee ID: 101
+2026-11-26 06:59:58,041 | DEBUG | TraceID=93f7b53fc8a042fc935c97c476a6cd0f | employee_service.py:10 | Service processing employee ID: 101
+2026-11-26 06:59:58,041 | DEBUG | TraceID=93f7b53fc8a042fc935c97c476a6cd0f | employee_repository.py:13 | Repository received employee ID: 101
+2026-11-26 06:59:58,041 | INFO | TraceID=93f7b53fc8a042fc935c97c476a6cd0f | employee_repository.py:22 | Fetching employee from repository
+2026-11-26 06:59:58,042 | INFO | TraceID=93f7b53fc8a042fc935c97c476a6cd0f | employee_service.py:17 | Employee retrieved successfully: 101
+2026-11-26 06:59:58,042 | INFO | TraceID=93f7b53fc8a042fc935c97c476a6cd0f | main.py:38 | Request completed in 1.52 ms
+2026-11-26 07:14:43,429 | INFO | TraceID=94a8306deee741b0aef801f48917dd80 | main.py:20 | Request started: GET /employees/999
+2026-11-26 07:14:43,430 | INFO | TraceID=94a8306deee741b0aef801f48917dd80 | main.py:47 | Controller received employee ID: 999
+2026-11-26 07:14:43,430 | DEBUG | TraceID=94a8306deee741b0aef801f48917dd80 | employee_service.py:10 | Service processing employee ID: 999
+2026-11-26 07:14:43,430 | DEBUG | TraceID=94a8306deee741b0aef801f48917dd80 | employee_repository.py:13 | Repository received employee ID: 999
+2026-11-26 07:14:43,430 | CRITICAL | TraceID=94a8306deee741b0aef801f48917dd80 | employee_repository.py:16 | Database infrastructure is unavailable
+2026-11-26 07:14:43,431 | ERROR | TraceID=94a8306deee741b0aef801f48917dd80 | main.py:25 | Database service unavailable
+Traceback (most recent call last):
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/main.py", line 23, in trace_id_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 179, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 149, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/starlette/routing.py", line 683, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2929, in app
+    await route.handle(scope, receive, send)
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1375, in handle
+    await super().handle(scope, receive, send)
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/starlette/routing.py", line 289, in handle
+    await self.app(scope, receive, send)
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/fastapi/routing.py", line 175, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/fastapi/routing.py", line 161, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/fastapi/routing.py", line 762, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/fastapi/routing.py", line 383, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2779, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1124, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/venv/lib/python3.12/site-packages/fastapi/telemetry/_api.py", line 244, in _run_sync_endpoint
+    return function(**arguments)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/main.py", line 48, in get_employee
+    employee = service.get_employee(employee_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/employee_service.py", line 11, in get_employee
+    employee = self.repository.get_employee(employee_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pappal615/Documents/Phase4/Day3/Logging_Example/employee_repository.py", line 17, in get_employee
+    raise ConnectionError("Database infrastructure unavailable")
+ConnectionError: Database infrastructure unavailable
+2026-11-26 07:14:43,434 | INFO | TraceID=94a8306deee741b0aef801f48917dd80 | main.py:38 | Request completed in 5.27 ms
