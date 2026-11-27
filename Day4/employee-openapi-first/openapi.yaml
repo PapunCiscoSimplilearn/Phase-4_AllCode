@@ -1,0 +1,92 @@
+openapi: 3.0.3
+
+info:
+  title: Employee Management API
+  version: 1.0.0
+
+paths:
+
+  /employees:
+
+    get:
+      tags:
+        - Employee
+      summary: Get all employees
+      operationId: getEmployees
+
+      responses:
+        '200':
+          description: List of employees
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Employee'
+
+    post:
+      tags:
+        - Employee
+      summary: Create employee
+      operationId: createEmployee
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EmployeeCreate'
+
+      responses:
+        '201':
+          description: Employee created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Employee'
+
+components:
+
+  schemas:
+
+    EmployeeCreate:
+      type: object
+      required:
+        - name
+        - department
+        - salary
+
+      properties:
+        name:
+          type: string
+          minLength: 1
+
+        department:
+          type: string
+
+        salary:
+          type: number
+          format: double
+          minimum: 0
+
+    Employee:
+      type: object
+      required:
+        - id
+        - name
+        - department
+        - salary
+
+      properties:
+        id:
+          type: integer
+
+        name:
+          type: string
+
+        department:
+          type: string
+
+        salary:
+          type: number
+          format: double

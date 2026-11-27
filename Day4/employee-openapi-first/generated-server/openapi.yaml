@@ -1,0 +1,93 @@
+openapi: 3.0.3
+info:
+  title: Employee Management API
+  version: 1.0.0
+servers:
+- url: /
+paths:
+  /employees:
+    get:
+      operationId: getEmployees
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/Employee'
+                type: array
+          description: List of employees
+      summary: Get all employees
+      tags:
+      - Employee
+    post:
+      operationId: createEmployee
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EmployeeCreate'
+        required: true
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Employee'
+          description: Employee created
+      summary: Create employee
+      tags:
+      - Employee
+components:
+  schemas:
+    EmployeeCreate:
+      example:
+        name: name
+        department: department
+        salary: 0.08008281904610115
+      properties:
+        name:
+          minLength: 1
+          title: name
+          type: string
+        department:
+          title: department
+          type: string
+        salary:
+          format: double
+          minimum: 0
+          title: salary
+          type: number
+      required:
+      - department
+      - name
+      - salary
+      title: EmployeeCreate
+      type: object
+    Employee:
+      example:
+        name: name
+        id: 0
+        department: department
+        salary: 6.027456183070403
+      properties:
+        id:
+          title: id
+          type: integer
+        name:
+          title: name
+          type: string
+        department:
+          title: department
+          type: string
+        salary:
+          format: double
+          title: salary
+          type: number
+      required:
+      - department
+      - id
+      - name
+      - salary
+      title: Employee
+      type: object
